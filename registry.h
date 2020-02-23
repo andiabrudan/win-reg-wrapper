@@ -63,27 +63,27 @@ namespace reg
 
 		const std::unordered_map<HKEY, std::string_view> str_hkey
 		{
-			{HKEY_CLASSES_ROOT,		"HKEY_CLASSES_ROOT"		},
-			{HKEY_CURRENT_USER,		"HKEY_CURRENT_USER"		},
+			{HKEY_CLASSES_ROOT,	"HKEY_CLASSES_ROOT"	},
+			{HKEY_CURRENT_USER,	"HKEY_CURRENT_USER"	},
 			{HKEY_LOCAL_MACHINE,	"HKEY_LOCAL_MACHINE"	},
-			{HKEY_USERS,			"HKEY_USERS"			},
+			{HKEY_USERS,		"HKEY_USERS"		},
 			{HKEY_CURRENT_CONFIG,	"HKEY_CURRENT_CONFIG"	},
 		};
 
 		const std::unordered_map<DWORD, std::string_view> str_type
 		{
-			{REG_NONE,							"No type"									},
-			{REG_SZ,							"Nul terminated string"						},
-			{REG_EXPAND_SZ,						"Nul terminated string"						},
-			{REG_BINARY,						"Free form binary"							},
-			{REG_DWORD,							"32-bit number"								},
-			{REG_DWORD_BIG_ENDIAN,				"32-bit number"								},
-			{REG_LINK,							"Symbolic Link"								},
-			{REG_MULTI_SZ,						"Multiple Unicode strings"					},
-			{REG_RESOURCE_LIST,					"Resource list in the resource map"			},
+			{REG_NONE,				"No type"					},
+			{REG_SZ,				"Nul terminated string"				},
+			{REG_EXPAND_SZ,				"Nul terminated string"				},
+			{REG_BINARY,				"Free form binary"				},
+			{REG_DWORD,				"32-bit number"					},
+			{REG_DWORD_BIG_ENDIAN,			"32-bit number"					},
+			{REG_LINK,				"Symbolic Link"					},
+			{REG_MULTI_SZ,				"Multiple Unicode strings"			},
+			{REG_RESOURCE_LIST,			"Resource list in the resource map"		},
 			{REG_FULL_RESOURCE_DESCRIPTOR,		"Resource list in the hardware description"	},
-			{REG_RESOURCE_REQUIREMENTS_LIST,	""											},
-			{REG_QWORD,							"64-bit number"								},
+			{REG_RESOURCE_REQUIREMENTS_LIST,	""						},
+			{REG_QWORD,				"64-bit number"					},
 		};
 	}
 

@@ -1,0 +1,7 @@
+Debug/
+Release/
+.vs/
+*.cbp
+*.layout
+*.vcxproj.user
+*.sln
